@@ -1,0 +1,1 @@
+Generate a complete Python program that prints all prime numbers from 1 to 100. Save this program into a file named prime.py in the workspace. Use the run_command tool to create and write the file with the generated code.
