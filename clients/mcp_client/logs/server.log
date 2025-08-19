@@ -1,3 +1,0 @@
-{"timestamp": "2025-08-18 15:33:27,208", "level": "INFO", "message": "\ud83d\ude80 Terminal MCP server starting...", "module": "terminal_server", "function": "<module>", "line": 84}
-{"timestamp": "2025-08-18 15:37:17,836", "level": "INFO", "message": "Received command: echo \"def fibonacci(n):\n    a, b = 0, 1\n    while a < n:\n        print(a, end=' ')\n        a, b = b, a+b\n    print()\n\nfibonacci(10)\" > Fibonacci.py", "module": "terminal_server", "function": "run_command", "line": 61}
-{"timestamp": "2025-08-18 15:37:17,843", "level": "INFO", "message": "Command executed", "module": "terminal_server", "function": "run_command", "line": 73}
