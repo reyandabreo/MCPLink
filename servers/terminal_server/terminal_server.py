@@ -80,6 +80,27 @@ async def run_command(command: str) -> str:
         logger.error("Error running command", exc_info=True, extra={"command": command})
         return str(e)
 
+@mcp.tool()
+async def create_file(filename: str, content: str) -> str:
+    """
+    Create a file with given filename and content inside the workspace.
+
+    Args:
+        filename: The name of the file to create
+        content: The file contents to write.
+
+    Returns:
+        A success message or error.
+    """
+    try:
+        filepath = os.path.join(DEFAULT_WORKSPACE, filename)
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(content)
+        return f"✅ File '{filename}' created successfully in workspace."
+    except Exception as e:
+        return f"❌ Error creating file: {str(e)}"
+
+
 if __name__ == "__main__":
     logger.info("🚀 Terminal MCP server starting...")
     mcp.run(transport='stdio')

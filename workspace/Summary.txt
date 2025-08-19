@@ -1,1 +1,0 @@
-This is the Summary of Creating MCP Client and server

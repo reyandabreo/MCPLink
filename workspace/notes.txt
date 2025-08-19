@@ -1,0 +1,5 @@
+- Microservices architecture
+- Loosely coupled
+- Independent deployment
+- Decentralized governance
+- Failure isolation

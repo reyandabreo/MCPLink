@@ -160,7 +160,7 @@ class MCPClient:
 
     async def chat_loop(self):
         """Run an interactive chat session with the user."""
-        print_ascii_banner("GemTerm")
+        print_ascii_banner("MCPLink")
         console.print(Panel.fit("🤖 [bold cyan]MCP Client Started![/bold cyan]\nType 'quit' to exit", border_style="cyan"))
 
         while True:

@@ -1,1 +1,19 @@
-Generate a complete Python program that prints all prime numbers from 1 to 100. Save this program into a file named prime.py in the workspace. Use the run_command tool to create and write the file with the generated code.
+These are the clear and descriptive prompts that showcase the capabilities of MCP client-server interaction
+
+ Prompt 1 – Create a Text File with Content
+
+    “Create a file named introduction.txt in the workspace and write a short introduction about Large Language Models, explaining their purpose in under 100 words.”
+    
+    “Write a text file named notes.txt with bullet points about MCP architecture.”
+
+🔹 Prompt 2 – Generate Python Code (Even Numbers up to 50)
+
+    “Create a file named even_numbers.py to print all even numbers up to 50”
+
+🔹 Prompt 3 – Structured Data Output
+
+    “Create a file named fruits.json containing a list of at least 5 fruits, where each entry has a name, color, and avg_weight_grams field.”
+
+🔹 Prompt 4 – Flowchart in Mermaid Syntax
+
+    “Create a file named flowchart.md containing a Mermaid diagram of the workflow: User → MCP Client → MCP Server → LLM → File Creation.”
